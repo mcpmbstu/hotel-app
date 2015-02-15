@@ -3,7 +3,7 @@
 Plugin Name: Hotel App.
 Plugin URI: http://www.mamuncse.co.nr/
 Description: Custom Hotel/Restaurant Reservation wordpress plugin
-Version: 1.0.1
+Version: 1.0.2
 Author: Mamunuzzaman
 Author URI: http://www.mamuncse.co.nr/
 License: GPL

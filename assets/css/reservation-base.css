@@ -1,0 +1,144 @@
+.custom-group #poststuff{
+	padding-top:0;
+	min-width:inherit;
+}
+.postbox .customToggle {
+float: right;
+width: 27px;
+height: 30px;
+}
+.customToggle{
+font-family:dashicons
+right: 12px;
+font: 400 20px/1 dashicons;
+speak: none;
+display: inline-block;
+padding: 8px 10px;
+top: 0;
+position: relative;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-decoration: none!important;	
+}
+.postbox .customToggle::before{
+content: '\f142';
+}
+
+
+.custom-group p label{
+	font-weight: 600;	
+}
+
+
+
+/*** List css *****/
+.list-group {
+padding-left: 0;
+margin-bottom: 20px;
+}
+
+.list-group-item:first-child {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.list-group-item-success {
+color: #3c763d;
+background-color: #dff0d8;
+}
+.list-group-item {
+position: relative;
+display: block;
+padding: 10px 15px;
+margin-bottom: -1px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+.list-group-item-info {
+color: #31708f;
+background-color: #d9edf7;
+}
+
+
+
+/**** Panel CSS ****/
+.panel-default {
+border-color: #ddd;
+}
+.panel {
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+
+.panel-default>.panel-heading {
+color: #333;
+background-color: #f5f5f5;
+border-color: #ddd;
+border-radius: 4px 4px 0 0;
+}
+
+.panel-body {
+padding: 15px;
+}
+
+.panel-default>.panel-heading {
+color: #333;
+background-color: #f5f5f5;
+border-color: #ddd;
+}
+
+.panel-heading {
+	
+padding: 5px 15px; 
+border-bottom: 1px solid transparent;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+ 
+
+.panel-title {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 16px;
+color: inherit;
+}
+
+
+/***** Common CSS   ******/
+a.buttonLink{
+	padding: 4px 8px 5px 8px;
+	background: #e8e2c2;
+	border: 1px solid #cdcbb9;
+	-webkit-border-radius: 15px;
+	color: #000;	
+	border-radius: 15px;
+	font-size: 11px;
+	text-decoration:none;
+	text-transform: uppercase;
+	text-shadow: #999 1px 1px 1px;
+	float: left;
+	word-wrap: normal;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	box-shadow: 2px 2px 1px #d9d7ce;
+}
+
+a span.closeBtm{
+	width: 10px;
+	height: 10px;	
+	font-weight: 200;
+	font-size: 9px;
+	color: red;	
+}
+
+a span.closeBtm:before{
+	font: normal normal normal 12px/1 FontAwesome;
+	content: '\f00d';
+	margin-left: 3px;
+}
+

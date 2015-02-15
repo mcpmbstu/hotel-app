@@ -1,0 +1,40 @@
+#gallery-metabox-list li {
+  float: left;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+  margin: 15px 15px 15px 0;
+  cursor: move;
+  position: relative;
+}
+
+.fakeDiv{
+	position: absolute;
+left: 0;
+z-index: 100;
+bottom: 0;
+width: 100%;
+background: #000;
+opacity: .4;
+height: 23px;
+}
+
+small.removeClass{
+	position: absolute;
+	right: 5px;
+	z-index: 101;
+	bottom:5px;	  
+}
+
+small.removeClass a{
+	color: #fff;	
+}
+
+.changeClass{
+	position: absolute;
+	right: 25px;
+	z-index: 101;
+	bottom:2px;	
+	color: #fff;  
+}
